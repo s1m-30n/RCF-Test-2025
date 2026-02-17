@@ -6,9 +6,11 @@ const Candx_login = () => {
 
 	const [name, setName] = useState('');
 	const [id, setId] = useState('CHM101'); // Change priority later
+  const [loading, setLoading] = useState(false);
 	
 	const handleSubmit = async (event) => {
     event.preventDefault();
+    setLoading(true);
 
 
     // Make a POST request to your API route (e.g., '/api/save-user')
@@ -29,6 +31,7 @@ const Candx_login = () => {
     } else {
       // Handle error response
       console.error("Failed to set cookies");
+      setLoading(false);
     }
   };
   return (
@@ -100,7 +103,9 @@ const Candx_login = () => {
                     MAT 101
                   </option>
                 </select>
-                <button className={styles.loginbtn} >Login</button>
+                <button className={styles.loginbtn} disabled={loading} style={{ opacity: loading ? 0.7 : 1 }}>
+                  {loading ? <div className={styles.spinner}></div> : "Login"}
+                </button>
               </form>
           </div>
 
