@@ -102,6 +102,206 @@ export const quizData = {
       options: ["5i-4", "5i+4", "4-3i", "4i-3"],
       answer: "4i-3"
     },
+    {
+      question: "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find f ∘ h.",
+      options: ["x²+1", "x²+4", "x+3", "x²+2"],
+      answer: "x+3"
+    },
+    {
+      question: "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find g ∘ h.",
+      options: ["x²+1", "x²+4", "x+1", "x²+2"],
+      answer: "x²+1"
+    },
+    {
+      question: "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find g ∘ f.",
+      options: ["x²+6x-10", "x²-6x-10", "x²-6x+10", "x²+6x+10"],
+      answer: "x²+6x+10"
+    },
+    {
+      question: "Evaluate |x - 3| > 1",
+      options: ["x < 2", "x > 4", "x > 2", "A & B"],
+      answer: "A & B"
+    },
+    {
+      question: "Evaluate |2x - 5| < 3",
+      options: ["x > 4", "1 < x < 4", "x > 1", "A & B"],
+      answer: "1 < x < 4"
+    },
+    {
+      question: "Evaluate |2 - 4x| ≥ 6",
+      options: ["x ≥ 2", "x ≤ -1", "2 ≤ x > -1", "A & B"],
+      answer: "A & B"
+    },
+    {
+      question: "Express cos²θ in terms of multiple angles.",
+      options: ["2[cos 2θ - 1]", "2⁻¹[cos 2θ - 1]", "2[cos 2θ + 1]", "2⁻¹[cos 2θ + 1]"],
+      answer: "2⁻¹[cos 2θ + 1]"
+    },
+    {
+      question: "Find f(x) = √(x + 4) when f(-3).",
+      options: ["i", "-i", "1", "0"],
+      answer: "1"
+    },
+    {
+      question: "What is the value of 'a' given a + ib = (1 - i) / (2 + i)?",
+      options: ["-1/5", "3/5", "-3/5", "1/5"],
+      answer: "1/5"
+    },
+    {
+      question: "Given Z₁ = 3 + 2i and Z₂ = 4 - 5i, evaluate Z₁Z₂.",
+      options: ["2 - 7i", "22 - 7i", "2 + 7i", "22 + 7i"],
+      answer: "22 - 7i"
+    },
+    {
+      question: "If X ∩ Y = ∅, then X and Y are said to be:",
+      options: ["Finite sets", "Disjoint sets", "Null sets", "Infinite sets"],
+      answer: "Disjoint sets"
+    },
+    {
+      question: "Determine the modulus and argument of 2 + 3i.",
+      options: ["√13, 33.69°", "√13, 56.31°", "√13, -33.69°", "√13, -56.31°"],
+      answer: "√13, 56.31°"
+    },
+    {
+      question: "Solve the inequality 2x - 3 < x + 7.",
+      options: ["x + 10 < 0", "x < 10", "x > -10", "x - 10 > 0"],
+      answer: "x < 10"
+    },
+    {
+      question: "Simplify √20 + √125 + √45.",
+      options: ["5(√5)", "7(√5)", "10(√5)", "11(√5)"],
+      answer: "10(√5)"
+    },
+    {
+      question: "Given Z₁ = 2 + 3j and Z₂ = 3 - 4j, evaluate Z₂ - Z₁.",
+      options: ["1 + 7j", "1 - 7j", "-1 + 7j", "-1 - 7j"],
+      answer: "1 - 7j"
+    },
+    {
+      question: "In a village, 97% speak Hausa and 64% speak English. What percentage speak both?",
+      options: ["61%", "63%", "67%", "69%"],
+      answer: "61%"
+    },
+    {
+      question: "In a class of 20 boys, 16 play soccer, 12 play hockey and 2 do not play. How many play both?",
+      options: ["6", "8", "10", "12"],
+      answer: "10"
+    },
+    {
+      question: "Find the inverse of f:x = (x + 1) / (x - 2).",
+      options: ["(2x + 1) / (x - 1)", "(2x - 1) / (x - 1)", "(2x + 1) / (x + 1)", "(x - 1) / (2x + 1)"],
+      answer: "(2x + 1) / (x - 1)"
+    },
+    {
+      question: "The discriminant for the equation 3x² - 4x + 12 = 0 is:",
+      options: ["72", "-72", "128", "-128"],
+      answer: "-128"
+    },
+    {
+      question: "If X = {2, 4, 6}, determine the number of power sets nP(X).",
+      options: ["3", "6", "8", "16"],
+      answer: "8"
+    },
+  {
+    "question": "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find f ∘ h.",
+    "options": ["x²+1", "x²+4", "x+3", "x²+2"],
+    "answer": "C"
+  },
+  {
+    "question": "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find g ∘ h.",
+    "options": ["x²+1", "x²+4", "x+1", "x²+2"],
+    "answer": "A"
+  },
+  {
+    "question": "Given f(x)=x+3, g(x)=x²+1 and h(x)=x. Find g ∘ f.",
+    "options": ["x²+6x-10", "x²-6x-10", "x²-6x+10", "x²+6x+10"],
+    "answer": "D"
+  },
+  {
+    "question": "Evaluate |x - 3| > 1",
+    "options": ["x < 2", "x > 4", "x > 2", "A & B"],
+    "answer": "D"
+  },
+  {
+    "question": "Evaluate |2x - 5| < 3",
+    "options": ["x > 4", "1 < x < 4", "x > 1", "A & B"],
+    "answer": "B"
+  },
+  {
+    "question": "Evaluate |2 - 4x| ≥ 6",
+    "options": ["x ≥ 2", "x ≤ -1", "2 ≤ x > -1", "A & B"],
+    "answer": "D"
+  },
+  {
+    "question": "Express cos²θ in terms of multiple angles.",
+    "options": ["2[cos 2θ - 1]", "2⁻¹[cos 2θ - 1]", "2[cos 2θ + 1]", "2⁻¹[cos 2θ + 1]"],
+    "answer": "D"
+  },
+  {
+    "question": "Find f(x) = √(x + 4) when f(-3).",
+    "options": ["i", "-i", "1", "0"],
+    "answer": "C"
+  },
+  {
+    "question": "What is the value of 'a' given a + ib = (1 - i) / (2 + i)?",
+    "options": ["-1/5", "3/5", "-3/5", "1/5"],
+    "answer": "D"
+  },
+  {
+    "question": "Given Z₁ = 3 + 2i and Z₂ = 4 - 5i, evaluate Z₁Z₂.",
+    "options": ["2 - 7i", "22 - 7i", "2 + 7i", "22 + 7i"],
+    "answer": "B"
+  },
+  {
+    "question": "If X ∩ Y = ∅, then X and Y are said to be:",
+    "options": ["Finite sets", "Disjoint sets", "Null sets", "Infinite sets"],
+    "answer": "B"
+  },
+  {
+    "question": "Determine the modulus and argument of 2 + 3i.",
+    "options": ["√13, 33.69°", "√13, 56.31°", "√13, -33.69°", "√13, -56.31°"],
+    "answer": "B"
+  },
+  {
+    "question": "Solve the inequality 2x - 3 < x + 7.",
+    "options": ["x + 10 < 0", "x < 10", "x > -10", "x - 10 > 0"],
+    "answer": "B"
+  },
+  {
+    "question": "Simplify √20 + √125 + √45.",
+    "options": ["5(√5)", "7(√5)", "10(√5)", "11(√5)"],
+    "answer": "C"
+  },
+  {
+    "question": "Given Z₁ = 2 + 3j and Z₂ = 3 - 4j, evaluate Z₂ - Z₁.",
+    "options": ["1 + 7j", "1 - 7j", "-1 + 7j", "-1 - 7j"],
+    "answer": "B"
+  },
+  {
+    "question": "In a village, 97% speak Hausa and 64% speak English. What percentage speak both?",
+    "options": ["61%", "63%", "67%", "69%"],
+    "answer": "A"
+  },
+  {
+    "question": "In a class of 20 boys, 16 play soccer, 12 play hockey and 2 do not play. How many play both?",
+    "options": ["6", "8", "10", "12"],
+    "answer": "C"
+  },
+  {
+    "question": "Find the inverse of f:x = (x + 1) / (x - 2).",
+    "options": ["(2x + 1) / (x - 1)", "(2x - 1) / (x - 1)", "(2x + 1) / (x + 1)", "(x - 1) / (2x + 1)"],
+    "answer": "A"
+  },
+  {
+    "question": "The discriminant for the equation 3x² - 4x + 12 = 0 is:",
+    "options": ["72", "-72", "128", "-128"],
+    "answer": "D"
+  },
+  {
+    "question": "If X = {2, 4, 6}, determine the number of power sets nP(X).",
+    "options": ["3", "6", "8", "16"],
+    "answer": "C"
+  }
   ]
       
   };

@@ -8,9 +8,24 @@ import { useState, useEffect } from 'react';
 
 const StartQuiz = ({ name, id }) => {
   const [autoSubmitted, setAutoSubmitted] = useState(false);
+  const [shuffledQuizData, setShuffledQuizData] = useState(null);
+
+  useEffect(() => {
+    const shuffleQuestions = () => {
+      const questions = [...quizData.questions];
+      for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+      }
+      const selectedQuestions = questions.slice(0, 40);
+      setShuffledQuizData({ ...quizData, questions: selectedQuestions });
+    };
+
+    shuffleQuestions();
+  }, []);
 
   const CountdownTimer = () => {
-    const [countdown, setCountdown] = useState(900); // 1200 seconds = 20 minutes
+    const [countdown, setCountdown] = useState(2400); // 2400 seconds = 40 minutes
     useEffect(() => {
       const timer = setInterval(() => {
         setCountdown((prevCountdown) => prevCountdown - 1);
@@ -67,7 +82,11 @@ const StartQuiz = ({ name, id }) => {
 	  <h3 className={styles.instruction}>PHY103: <em className={styles.ctitle}>General Physics II</em></h3>
     <div className={styles.container}>
 		<div className={styles.exambody}>
-			<Quiz quizData={quizData} autoSubmitted= {autoSubmitted} setAutoSubmitted={setAutoSubmitted} name={name} id={id}/>
+      {shuffledQuizData ? (
+			  <Quiz quizData={shuffledQuizData} autoSubmitted= {autoSubmitted} setAutoSubmitted={setAutoSubmitted} name={name} id={id}/>
+      ) : (
+        <p>Loading questions...</p>
+      )}
 		</div>
 	</div>
 	</div>
