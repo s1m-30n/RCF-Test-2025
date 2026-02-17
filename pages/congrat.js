@@ -4,11 +4,17 @@ import styles from "../assets/css/styles.module.css";
 import lottieCongrats from './../assets/lottie/completed.json';
 import React, { useEffect, useState } from "react";
 import bg from './../assets/img/Auth.jpg';
-import { Player } from '@lottiefiles/react-lottie-player';
+import dynamic from "next/dynamic";
+const Player = dynamic(() => import('@lottiefiles/react-lottie-player').then(mod => mod.Player), {
+  ssr: false,
+});
 import rcf from './../assets/img/rcf_logo_172_X_155 tp 2.png';
 import PouchDB from "pouchdb";
 
-const db = new PouchDB("rcf_database");
+let db;
+if (typeof window !== "undefined") {
+  db = new PouchDB("rcf_database");
+}
 
 const Results = () => {
   const router = useRouter();

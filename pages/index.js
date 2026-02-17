@@ -42,15 +42,15 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>CHM101: General Chemistry I</h2>
 
-						<h4>Test Duration: 10 Minutes</h4>
-						<h4>Total Questions: 20 Questions</h4>
+						<h4>Test Duration: 40 Minutes</h4>
+						<h4>Total Questions: 40 Questions</h4>
 
 						{/* Before you begin your quiz, please take a moment to read the instructions <b>carefully.</b> */}
 
 						<ul className={styles.instructLi}>
 							<li>Read each question carefully before selecting your answer.</li>
 							<li>The test consists of multiple-choice.</li>
-							<li>You must complete the test within the allocated 10-minute duration.</li>
+							<li>You must complete the test within the allocated duration.</li>
 							<li>Do not refresh the page or navigate away during the test.</li>
 							<li>Each question carries equal marks.</li>
 							<li>Once submitted, you cannot change your answers.</li>
@@ -65,15 +65,15 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>MAT101: Elementary Mathematics</h2>
 
-						<h4>Test Duration: 10 Minutes</h4>
-						<h4>Total Questions: 20 Questions</h4>
+						<h4>Test Duration: 40 Minutes</h4>
+						<h4>Total Questions: 40 Questions</h4>
 
 						{/* MAT101 will carry different instructions as well */}
 
 						<ul className={styles.instructLi}>
 							<li>Read each question carefully before selecting your answer.</li>
 							<li>The test consists of multiple-choice.</li>
-							<li>You must complete the test within the allocated 10-minute duration.</li>
+							<li>You must complete the test within the allocated duration.</li>
 							<li>Do not refresh the page or navigate away during the test.</li>
 							<li>Each question carries equal marks.</li>
 							<li>Once submitted, you cannot change your answers.</li>
@@ -88,15 +88,15 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>PHY101: General Physics I</h2>
 
-						<h4>Test Duration: 10 Minutes</h4>
-						<h4>Total Questions: 20 Questions</h4>
+						<h4>Test Duration: 40 Minutes</h4>
+						<h4>Total Questions: 40 Questions</h4>
 
 						{/* PHY101 will carry different unique instructions */}
 
 						<ul className={styles.instructLi}>
 							<li>Read each question carefully before selecting your answer.</li>
 							<li>The test consists of multiple-choice.</li>
-							<li>You must complete the test within the allocated 10-minute duration.</li>
+							<li>You must complete the test within the allocated duration.</li>
 							<li>Do not refresh the page or navigate away during the test.</li>
 							<li>Each question carries equal marks.</li>
 							<li>Once submitted, you cannot change your answers.</li>

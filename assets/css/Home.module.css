@@ -264,11 +264,13 @@ input[type=checkbox] + label:before{
 .progress_row{
 	display: flex;
 	flex-direction: row;
+    flex-wrap: wrap; /* Added to allow wrapping */
 	align-items: flex-start;
 	padding: 0px;
 	gap: 12px;
 	/* width: 80vw; */
-	height: 32px;
+	/* height: 32px; Removed or changed to auto */
+    height: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
