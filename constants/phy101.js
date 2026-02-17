@@ -3,102 +3,102 @@ export const quizData = {
   description: 'Test your knowledge with these general knowledge questions!',
   questions: [
     {
-        question: '1. Which of the following is NOT a fundamental S.I unit?',
+        question: 'Which of the following is NOT a fundamental S.I unit?',
         options: ['Metre', 'Ampere', 'Kelvin'],
         answer: 'Ampere'
     },
     {
-        question: '2. What is the dimension of energy?',
+        question: 'What is the dimension of energy?',
         options: ['ML²T`²', 'ML²T²', 'ML²T`³'],
         answer: 'ML²T`²'
     },
     {
-        question: '3. Which of the following indicates how fast a body moves?',
+        question: 'Which of the following indicates how fast a body moves?',
         options: ['Mass', 'Length', 'Time'],
         answer: 'Time'
     },
     {
-        question: '4. Which of the following is NOT a possible unit for velocity?',
+        question: 'Which of the following is NOT a possible unit for velocity?',
         options: ['centimeters/month', 'millimeters/kilowatt', 'decimeters/kilo second'],
         answer: 'millimeters/kilowatt'
     },
     {
-        question: '5. Which of the following is a dimension of pressure?',
+        question: 'Which of the following is a dimension of pressure?',
         options: ['ML`¹T`²', 'MLT`²', 'ML²T`²'],
         answer: 'ML`¹T`²'
     },
     {
-        question: '6. 1 Mega Pascal is equivalent to?',
+        question: '1 Mega Pascal is equivalent to?',
         options: ['1N/m²', '1N/mm²', '1Nmm²'],
         answer: '1N/mm²'
     },
     {
-        question: '7. Experiment shows that the frictional drag force F of a car moving in the air depends on the velocity v of its motion, density p of the air through which it travels, and the cross-sectional area of the car. If the force F = kP^xV^2yA^z, where x, y, and z are integers and k is a dimensionless constant. Find the values of x, y, and z.',
+        question: 'Experiment shows that the frictional drag force F of a car moving in the air depends on the velocity v of its motion, density p of the air through which it travels, and the cross-sectional area of the car. If the force F = kP^xV^2yA^z, where x, y, and z are integers and k is a dimensionless constant. Find the values of x, y, and z.',
         options: ['1, 1, 1', '½, ½, ½', '1, -1, 1'],
         answer: '1, 1, 1'
     },
     {
-        question: '8. Which of the following is a set of vectors?',
+        question: 'Which of the following is a set of vectors?',
         options: ['velocity, volume, upthrust', 'mass, force, impulse', 'weight, displacement, moment'],
         answer: 'weight, displacement, moment'
     },
     {
-        question: '9. Convert speed of 108 km/hr to units in m/s',
+        question: 'Convert speed of 108 km/hr to units in m/s',
         options: ['50m/s', '45m/s', '30m/s'],
         answer: '30m/s'
     },
     {
-        question: '10. Convert speed of 0.2 cm/s to units in km/yr',
+        question: 'Convert speed of 0.2 cm/s to units in km/yr',
         options: ['4.2km/yr', '63km/yr', '36km/yr'],
         answer: '63km/yr'
     },
     {
-        question: '11. Which of the following has the same dimension of stress?',
+        question: 'Which of the following has the same dimension of stress?',
         options: ['pressure', 'flow rate', 'momentum'],
         answer: 'pressure'
     },
     {
-        question: '12. The derived dimension ML²T`² is the dimension of?',
+        question: 'The derived dimension ML²T`² is the dimension of?',
         options: ['Torque', 'Energy', 'a&b'],
         answer: 'a&b'
     },
     {
-        question: '13. Which of the following quantities has the same unit as kilowatt-hour?',
+        question: 'Which of the following quantities has the same unit as kilowatt-hour?',
         options: ['force × acceleration', 'force × velocity', 'force × distance'],
         answer: 'force × distance'
     },
     {
-        question: '14. Which of the following is the dimension of dynamic viscosity?',
+        question: 'Which of the following is the dimension of dynamic viscosity?',
         options: ['ML`¹T`²', 'ML`¹T`¹', 'L²T`¹'],
         answer: 'ML`¹T`¹'
     },
     {
-        question: '15. The watt is equivalent to?',
+        question: 'The watt is equivalent to?',
         options: ['Nms`¹', 'Js', 'Ns'],
         answer: 'Nms`¹'
     },
     {
-        question: '16. According to Isaac Newton, space is?',
+        question: 'According to Isaac Newton, space is?',
         options: ['Non empirical', 'Euclidean', 'Absolute'],
         answer: 'Absolute'
     },
     {
-        question: '17. According to Immanuel Kant, space is?',
+        question: 'According to Immanuel Kant, space is?',
         options: ['Non empirical', 'Euclidean', 'Absolute'],
         answer: 'Non empirical'
     },
     {
-        question: '18. Which of the following is an example of non-inertia reference frame?',
+        question: 'Which of the following is an example of non-inertia reference frame?',
         options: ['stationary magnet', 'carousel', 'sun'],
         answer: 'carousel'
     },
     {
-        question: '19. When is inertia reference of frame not possible?',
+        question: 'When is inertia reference of frame not possible?',
         options: ['No net force acting on the frame', 'Net force acting on the frame', 'none of the above'],
         answer: 'Net force acting on the frame'
     },
     {
-        question: '20. ________ in physics is used in measuring the passage of event and occurrence?',
+        question: '________ in physics is used in measuring the passage of event and occurrence?',
         options: ['Time', 'Space', 'Frequency'],
         answer: 'Time'
     },
