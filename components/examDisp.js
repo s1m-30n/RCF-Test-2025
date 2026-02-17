@@ -200,7 +200,13 @@ if (autoSubmitted) {
         <div className={styles.progress_content}>
           <div className={styles.progress_row}>
             {backgroundColors.map((color, index) => (
-              <div key={index} onClick={() => {handleNum(index)}} className={styles.progress_num} style={{ backgroundColor: color, color: color == "#353275" ? "white" : "black", border: color == "#ecf2f6" ? "1.7px solid #e0dfff" : "none" }}>{index + 1}</div>
+              <div key={index} onClick={() => {handleNum(index)}} className={styles.progress_num} style={{ 
+                backgroundColor: color, 
+                color: color == "#353275" ? "white" : "black", 
+                border: index === currentQuestion ? "2px solid #ed1d24" : (color == "#ecf2f6" ? "1.7px solid #e0dfff" : "none"),
+                transform: index === currentQuestion ? "scale(1.1)" : "scale(1)",
+                fontWeight: index === currentQuestion ? "bold" : "normal"
+              }}>{index + 1}</div>
             ))}
           </div>
           <p style={{color: errorstate}}>Ensure you answer all questions before submitting.</p>

@@ -199,7 +199,7 @@ export const quizData = {
     },
     {
       "question": "According to Ernest Rutherford's model, what is the tiny, massive core of the atom called?",
-      "options": ["Electron cloud", "Nucleus", "Electron cloud", "Orbit"],
+      "options": ["Nuclei", "Nucleus", "Electron cloud", "Orbit"],
       "answer": "Nucleus"
     },
     {
