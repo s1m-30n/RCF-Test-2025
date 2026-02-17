@@ -35,10 +35,10 @@ const Quiz = ({ quizData, autoSubmitted, setAutoSubmitted, name, id }) => {
 
   useEffect(() => {
     const savedAnswers = JSON.parse(localStorage.getItem('savedAnswers'));
-    if (savedAnswers) {
+    if (savedAnswers && savedAnswers.length === quizData.questions.length) {
       setAnswers(savedAnswers);
     }
-  }, []);
+  }, [quizData.questions.length]);
 
   
   useEffect(() => {

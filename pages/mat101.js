@@ -21,13 +21,13 @@ const StartQuiz = ({ name, id }) => {
         const j = Math.floor(Math.random() * (i + 1));
         [questions[i], questions[j]] = [questions[j], questions[i]];
       }
-      const selectedQuestions = questions.slice(0, 40);
+      const selectedQuestions = questions.slice(0, 30);
       setShuffledQuizData({ ...quizData, questions: selectedQuestions });
     };
 
     shuffleQuestions();
   }, []);
-  const [countdown, setCountdown] = useState(2400); // 2400 seconds = 40 minutes
+  const [countdown, setCountdown] = useState(1500); // 1500 seconds = 25 minutes
   const timerRef = useRef(null);
 
   useEffect(() => {

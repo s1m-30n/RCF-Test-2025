@@ -42,8 +42,8 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>CHM101: General Chemistry I</h2>
 
-						<h4>Test Duration: 40 Minutes</h4>
-						<h4>Total Questions: 40 Questions</h4>
+						<h4>Test Duration: 20 Minutes</h4>
+						<h4>Total Questions: 30 Questions</h4>
 
 						{/* Before you begin your quiz, please take a moment to read the instructions <b>carefully.</b> */}
 
@@ -65,8 +65,8 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>MAT101: Elementary Mathematics</h2>
 
-						<h4>Test Duration: 40 Minutes</h4>
-						<h4>Total Questions: 40 Questions</h4>
+						<h4>Test Duration: 25 Minutes</h4>
+						<h4>Total Questions: 30 Questions</h4>
 
 						{/* MAT101 will carry different instructions as well */}
 
@@ -88,8 +88,8 @@ const SelectCourse = ({ name, id }) => {
 						
 						<h2>PHY101: General Physics I</h2>
 
-						<h4>Test Duration: 40 Minutes</h4>
-						<h4>Total Questions: 40 Questions</h4>
+						<h4>Test Duration: 20 Minutes</h4>
+						<h4>Total Questions: 30 Questions</h4>
 
 						{/* PHY101 will carry different unique instructions */}
 
