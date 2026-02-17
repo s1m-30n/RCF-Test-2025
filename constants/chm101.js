@@ -119,7 +119,7 @@ export const quizData = {
     },
     {
       "question": "Which element is a semi conductor",
-      "options": ["Carbon", "Silicon", "Uranium", "D"],
+      "options": ["Carbon", "Silicon", "Uranium", "Sulphur"],
       "answer": "Silicon"
     },
     {
