@@ -12,7 +12,7 @@ import ScientificCalculator from '../components/Calculator';
 const StartQuiz = ({ name, id }) => {
   const [autoSubmitted, setAutoSubmitted] = useState(false);
   const [calculator, setCalc] = useState(false);
-  const [countdown, setCountdown] = useState(150); // 900 seconds = 15 minutes
+  const [countdown, setCountdown] = useState(600); // 900 seconds = 15 minutes
   const timerRef = useRef(null);
 
   useEffect(() => {

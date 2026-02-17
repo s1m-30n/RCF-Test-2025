@@ -1,4 +1,4 @@
-# RCF eTrial Test 2025
+# RCF eTrial Test 2026
 eTrial Quiz App for FUTMINNA Freshers
 
 ## Introduction

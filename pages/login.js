@@ -8,7 +8,7 @@ const Candx_login = () => {
 	const [id, setId] = useState('CHM101'); // Change priority later
 	
 	const handleSubmit = async (event) => {
-    	event.preventDefault();
+    event.preventDefault();
 
 
     // Make a POST request to your API route (e.g., '/api/save-user')
@@ -107,7 +107,7 @@ const Candx_login = () => {
 
         </div>
         </div>
-        <footer className={styles.footer}>&copy; RCF dev Team (2025)</footer>
+        <footer className={styles.footer}>&copy; RCF dev Team (2026)</footer>
       {/* </div> */}
     </div>
   );

@@ -102,387 +102,275 @@ export const quizData = {
       options: ['Ionic bonds', 'Covanlent bonds', "Van der Waals forces", "Metallic bond"],
       answer: 'Covanlent bonds'
     },
-    // {
-    //   question: '21. The interaction between non-polar molecules is known as dipole dipole interaction.',
-    //   options: ['True', 'False', "Maybe", "All of the above"],
-    //   answer: ''
-    // },
-    // {
-    //   question: '22. Hydrogen bond are formed when hydrogen combine with highly _______ ',
-    //   options: ['Electropositive element', 'Electronegative element', 'Neutral species', 'None of the above'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '23. Which bond is formed in this compound CO2.',
-    //   options: ['Ionic bond', 'Covalent bond', "Van der Waals forces", 'Hydrogen bond'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '24. The bond formed in this compound H2O is called.',
-    //   options: ['Covalent bond', 'Hydrogen bond', 'Ionic bond', 'Van der Waals forces'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '25. The single bond formed by the direct, head-on overlaps of orbitals is a _____ bond',
-    //   options: ['Sigma bond', 'Pie bond', 'Connective bond', 'Radical bond'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '26. sp<sup>3</sup> has _______ electronic arrangement',
-    //   options: ['Linear', 'Trigonal planer', 'Square planer', 'Tetrahedral'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '27. sp<sup>2</sup> has _______ electronic arrangement',
-    //   options: ['Linear', 'Trigonal planer', 'Square planer', 'Tetrahedral'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '28. sp has _______ electronic arrangement',
-    //   options: ['Linear', 'Trigonal planer', 'Square planer', 'Tetrahedral'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '29. The combination of one S and one P results in the formation of sp orbitals. These two hybrid orbitals are ____ apart.',
-    //   options: ['90 &deg;', '120 &deg;', '180 &deg;', '270 &deg;'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '30. sp<sup>2</sup> orbitals are ______ apart.',
-    //   options: ['90 &deg;', '120 &deg;', '180 &deg;', '270 &deg;'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '31. Who demonstrates that crystals were of the appropriate size to diffract X-ray',
-    //   options: ['Max von laue', 'Maxwell laue', 'Mex von laue', 'Mex von laue', 'Mexwell laue'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '32. What is the bond formed between a metal and a non- metal',
-    //   options: ['Ionic bond', 'Covalent bond', 'Van der Waals forces', 'Metallic bond'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '33. All but one of the following are crystal classifications.',
-    //   options: ['Ionic crystal', 'Carbonic crystals', 'Metallic crystals', 'Atomic Molecular crystals'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '34. The properties of gases that are very important in the study of kinetic theory of gases are the following except',
-    //   options: ['Thermal expansion', 'Compressibility', 'Diffusibility', 'Composition'],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
-    // {
-    //   question: '',
-    //   options: [''],
-    //   answer: ''
-    // },
+  {
+    "question": "Each column in periodic table is called",
+    "options": ["Period", "Element", "Isotope", "Group"],
+    "answer": "D"
+  },
+  {
+    "question": "Overlapping of orbital in covalent bond occur between",
+    "options": ["Orbital of simple energy", "Orbital of the same energy", "Orbital of complex energy", "Orbital of different energy"],
+    "answer": "B"
+  },
+  {
+    "question": "The family known as chalcogens is",
+    "options": ["Oxygen", "Carbon", "Boron", "Nitrogen"],
+    "answer": "A"
+  },
+  {
+    "question": "Which element is a semi conductor",
+    "options": ["Carbon", "Silicon", "Uranium", "D"],
+    "answer": "B"
+  },
+  {
+    "question": "Bond dissociation energy in ionic bond can be",
+    "options": ["430 KJ/mol", "300 KJmol", "500 KJ/mol", "700 KJ/mol"],
+    "answer": "C"
+  },
+  {
+    "question": "Dipole dipole exist in",
+    "options": ["Hexane", "NaCl", "Diamond", "CaCl2"],
+    "answer": "B"
+  },
+  {
+    "question": "Mendelive arrange the elements in the same column based on",
+    "options": ["Atomic number", "Symbol", "Atomic mass", "Properties"],
+    "answer": "D"
+  },
+  {
+    "question": "Indestructible of atom was earlier postulated by",
+    "options": ["Democritus", "Dalton", "JJ Thomson", "Rutherford"],
+    "answer": "A"
+  },
+  {
+    "question": "Who was the Greek philosopher credited with coining the term 'atomos,' meaning indivisible?",
+    "options": ["Democritus", "John Dalton", "J.J. Thomson", "Ernest Rutherford"],
+    "answer": "A"
+  },
+  {
+    "question": "What did Democritus consider to be the fundamental unit of matter?",
+    "options": ["Molecule", "Atom", "Electron", "Proton"],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following assumptions did Democritus make about atoms?",
+    "options": ["Atoms have no internal structure", "Atoms are continuously divisible", "Atoms of different substances are identical", "Atoms cannot combine"],
+    "answer": "A"
+  },
+  {
+    "question": "What was John Dalton's major contribution to the development of the atomic model?",
+    "options": ["Discovery of the electron", "Postulation of plum pudding model", "Introduction of nucleus", "Formulation of modern atomic theory"],
+    "answer": "D"
+  },
+  {
+    "question": "According to John Dalton's atomic theory, elements are characterized by:",
+    "options": ["Their color", "The weight of their atoms", "The number of protons", "Their ability to conduct electricity"],
+    "answer": "B"
+  },
+  {
+    "question": "Who was the first scientist to discover the electron?",
+    "options": ["John Dalton", "J.J. Thomson", "Ernest Rutherford", "Niels Bohr"],
+    "answer": "B"
+  },
+  {
+    "question": "What device did J.J. Thomson use to discover the electron?",
+    "options": ["Cathode Ray Tube", "Gold Foil Experiment", "Electron Microscope", "Geiger Counter"],
+    "answer": "A"
+  },
+  {
+    "question": "How did J.J. Thomson determine the charge of the electron?",
+    "options": ["Deflection of alpha particles", "Behavior in a magnetic field", "Scattering off gold foil", "Calculating charge-to-mass ratio"],
+    "answer": "B"
+  },
+  {
+    "question": "What was the name given to J.J. Thomson's model of the atom?",
+    "options": ["Plum pudding model", "Planetary model", "Solar system model", "Electron cloud model"],
+    "answer": "A"
+  },
+  {
+    "question": "What were the limitations of Thomson's atomic model?",
+    "options": ["Failed to explain stability/nucleus position", "Couldn't account for electrons", "Didn't consider protons", "Lacked evidence"],
+    "answer": "A"
+  },
+  {
+    "question": "Which scientist proposed the planetary model of the atom?",
+    "options": ["Ernest Rutherford", "Niels Bohr", "Erwin Schrödinger", "Robert Millikan"],
+    "answer": "B"
+  },
+  {
+    "question": "According to Ernest Rutherford's model, what is the tiny, massive core of the atom called?",
+    "options": ["Electron cloud", "Nucleus", "Electron cloud", "Orbit"],
+    "answer": "B"
+  },
+  {
+    "question": "What particles did Ernest Rutherford use in his Gold Foil Experiment?",
+    "options": ["Electrons", "Protons", "Alpha particles", "Neutrons"],
+    "answer": "C"
+  },
+  {
+    "question": "Why did Rutherford propose the existence of a nucleus in the atom?",
+    "options": ["Most alpha particles deflected significantly", "All passed through without deflection", "Some deflected slightly", "Attracted to electrons"],
+    "answer": "A"
+  },
+  {
+    "question": "Which physicist came up with the planetary model of the atom?",
+    "options": ["Ernest Rutherford", "Niels Bohr", "Erwin Schrödinger", "J.J. Thomson"],
+    "answer": "B"
+  },
+  {
+    "question": "What problem did Niels Bohr address in his modification of the planetary model?",
+    "options": ["The stability of the atom", "The existence of electrons", "The charge of the nucleus", "The shape of the cloud"],
+    "answer": "A"
+  },
+  {
+    "question": "What is the major difference between Bohr's model and Rutherford's model?",
+    "options": ["Bohr doesn't consider orbits", "Rutherford doesn't explain why electrons don't collapse", "Bohr suggests fixed orbits", "Rutherford doesn't consider a nucleus"],
+    "answer": "C"
+  },
+  {
+    "question": "How did Schrödinger and Heisenberg determine the probability of finding electrons?",
+    "options": ["Math equations (Louis de Broglie)", "Gold foil experiments", "Cathode ray behavior", "Specific paths"],
+    "answer": "A"
+  },
+  {
+    "question": "Which model proposed the concept of electrons occupying orbitals?",
+    "options": ["Bohr's planetary", "Thomson's plum pudding", "Rutherford's", "Schrödinger's electron cloud"],
+    "answer": "D"
+  },
+  {
+    "question": "Why did Bohr's model face limitations?",
+    "options": ["Couldn't explain stability", "Failed to account for behavior in electric field", "No evidence", "No protons"],
+    "answer": "B"
+  },
+  {
+    "question": "Who proposed the concept of the electron cloud model?",
+    "options": ["Ernest Rutherford", "Niels Bohr", "Erwin Schrödinger", "J.J. Thomson"],
+    "answer": "C"
+  },
+  {
+    "question": "Which model of the atom was known as the 'plum pudding model'?",
+    "options": ["Thomson's", "Rutherford's", "Bohr's", "Schrödinger's"],
+    "answer": "A"
+  },
+  {
+    "question": "According to Thomson's atomic model, an atom consists of a positively charged sphere with:",
+    "options": ["Electrons scattered randomly", "Electrons orbiting", "Electrons embedded in it", "Moving in straight lines"],
+    "answer": "C"
+  },
+  {
+    "question": "What did Rutherford's Gold Foil Experiment reveal?",
+    "options": ["Empty space with a nucleus", "Solid indivisible sphere", "Embedded electrons", "Cloud of electrons"],
+    "answer": "A"
+  },
+  {
+    "question": "What did Schrödinger and Heisenberg determine about the location of electrons?",
+    "options": ["Confined to specific orbits", "Straight path", "Cloud of probability", "Found only in nucleus"],
+    "answer": "C"
+  },
+  {
+    "question": "Eka-boron is also referred to as",
+    "options": ["Boron", "Aluminum", "Scandium", "Gallium"],
+    "answer": "C"
+  },
+  {
+    "question": "Who discovered Gallium in 1875?",
+    "options": ["Winkler", "Lars Fredrick Nilson", "Lecoq de Boisbaudran", "Rutherford"],
+    "answer": "C"
+  },
+  {
+    "question": "Eka-Aluminum is also called",
+    "options": ["Germanium", "Scandium", "Aluminum", "Gallium"],
+    "answer": "D"
+  },
+  {
+    "question": "The property of an element is a function of its atomic number' describes which theory?",
+    "options": ["Theory of universe", "Atomic theory", "Periodic law", "Law of isotopes"],
+    "answer": "C"
+  },
+  {
+    "question": "IUPAC name of element with atomic number 107 is",
+    "options": ["Unnilseptium", "Nilunoctium", "Unnilsept", "Kurchotodium"],
+    "answer": "A"
+  },
+  {
+    "question": "The modern periodic table is arranged in order of increasing",
+    "options": ["Atomic number", "Atomic weights", "Atomic volume", "Boiling points"],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is an s-block element?",
+    "options": ["Ca", "Zn", "Cu", "Sc"],
+    "answer": "A"
+  },
+  {
+    "question": "What type of bond is in HCl?",
+    "options": ["Ionic bond", "Covalent bond", "Hydrogen bond", "Metallic bond"],
+    "answer": "B"
+  },
+  {
+    "question": "The ability of a metal to shine when polished is termed",
+    "options": ["Ductility", "Lustre", "Malleability", "Conductor"],
+    "answer": "B"
+  },
+  {
+    "question": "In the reaction xCa(OH)₂ + yH₃PO₄ → Ca₃(PO₄)₂ + zH₂O, what is the value of x?",
+    "options": ["4", "2", "3", "6"],
+    "answer": "C"
+  },
+  {
+    "question": "In the reaction xCa(OH)₂ + yH₃PO₄ → Ca₃(PO₄)₂ + zH₂O, what is the value of y?",
+    "options": ["4", "2", "3", "6"],
+    "answer": "B"
+  },
+  {
+    "question": "In the reaction xCa(OH)₂ + yH₃PO₄ → Ca₃(PO₄)₂ + zH₂O, what is the value of z?",
+    "options": ["4", "2", "3", "6"],
+    "answer": "D"
+  },
+  {
+    "question": "The ability of a metal to be beaten into sheets is termed",
+    "options": ["Ductility", "Lustre", "Malleability", "Conductor"],
+    "answer": "C"
+  },
+  {
+    "question": "What is the primary purpose of alloying in materials science?",
+    "options": ["Increase density", "Improve ductility", "Enhance properties", "Reduce cost"],
+    "answer": "C"
+  },
+  {
+    "question": "When the system A+B ⇌ C+D is at equilibrium,",
+    "options": ["Sum of concentrations A+B = C+D", "Reactions have stopped", "Reverse reaction has stopped", "Neither forward nor reverse has stopped"],
+    "answer": "D"
+  },
+  {
+    "question": "The man who brought about the name thermodynamics is called",
+    "options": ["Niels Bohr", "Ernest Rutherford", "William Thomson", "Isaac Newton"],
+    "answer": "C"
+  },
+  {
+    "question": "Who is referred to as the father of thermodynamics?",
+    "options": ["J.J Thompson", "William Thomson", "Sir Leonard", "Sadi Carnot"],
+    "answer": "B"
+  },
+  {
+    "question": "The bond angle of a regular tetrahedron covalent molecule is,",
+    "options": ["180°", "120°", "109.5°", "50°"],
+    "answer": "C"
+  },
+  {
+    "question": "Coordinate covalent bonds can lead to the formation of compounds with",
+    "options": ["Lower volatility than purely covalent", "Ionic character", "Higher volatility than purely covalent", "High solubility in both"],
+    "answer": "C"
+  },
+  {
+    "question": "The following affect the electrovalent nature of an ionic compound except",
+    "options": ["Noble gas structure", "Inert pair effect", "Atomic size", "Electron affinity of central atom"],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following decreases across the period?",
+    "options": ["Atomic radius", "Ionization energy", "Electronegativity", "Electron affinity"],
+    "answer": "A"
+  }    
   ]
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// questions: [
-//   {
-//     question: '1. Doubling the volume of an ideal gas at constant temperature will',
-//     options: ['Double the pressure', 'Half the temperature', 'Half the pressure', 'Increase the pressure by half'],
-//     answer: 'Half the pressure'
-//   },
-//   {
-//     question: '2. According to the kinetic theory, molecules of different gases at the same temperature always have the same',
-//     options: ['Average density', 'Volume', 'Pressure', 'Average kinetic energy'],
-//     answer: 'Average kinetic energy'
-//   },
-//   {
-//     question: '3. As solid elements melt, the atoms become __ and they have ___ attraction for one another',
-//     options: ['Closer together, more', 'More separated, more', 'Larger, greater', 'More separated, less'],
-//     answer: 'More separated, less'
-//   },
-//   {
-//     question: '4. The tendency of an electrode to release or attract electrons from the surrounding electrolyte solution at 298K temperature, 1 atm pressure, and 1 mL/dm³ concentration is known as',
-//     options: ['Electrolytic potential', 'Electrode potential', 'Standard electrolytic potential', 'Standard electrode potential'],
-//     answer: 'Standard electrode potential'
-//   },
-//   {
-//     question: '5. The molar solubility of lead (II) chloride is 1.5 x 10⁻² mol/dm³. What is the solubility product of the salt?',
-//     options: ['3.0 x 10⁻²', '30.0 x 10⁻²', '4.0 x 10⁻²', '1.5 x 10⁻²'],
-//     answer: '1.5 x 10⁻²'
-//   },
-//   {
-//     question: '6. When dH is negative, the reaction is said to be',
-//     options: ['Endothermic', 'Exothermic', 'Reversible', 'Catalytic'],
-//     answer: 'Exothermic'
-//   },
-//   {
-//     question: '7. Which of the following statements is true of an acid conjugate base?',
-//     options: ['Neutralize one another', 'Differ only by proton', 'Form salt and water only', 'Carry opposite charges'],
-//     answer: 'Carry opposite charges'
-//   },
-//   {
-//     question: '8. The pK of the bases XOH, YOH, and ZOH are 2.70, 8.60, and 4.50 respectively. Arrange them in order of increasing strength.',
-//     options: ['XOH, YOH, ZOH', 'YOH, XOH, ZOH', 'XOH, ZOH, YOH', 'YOH, ZOH, XOH'],
-//     answer: 'YOH, ZOH, XOH'
-//   },
-//   {
-//     question: '9. The properties of a substance that relate to its ability to form new substances are labeled as',
-//     options: ['Physical', 'Chemical', 'Extensive', 'Intensive'],
-//     answer: 'Chemical'
-//   },
-//   {
-//     question: '10. An example of a physical change produced by the addition of energy is',
-//     options: ['Lighting of a match', 'Burning', 'Melting of ice', 'Condensation of steam'],
-//     answer: 'Melting of ice'
-//   },
-//   {
-//     question: '11. Which of the following is true? If two gases under the same conditions have the same number of molecules, then they must (i) have the same number of molecules (ii) occupy the same volume (iii) different number of molecules (iv) occupy different volumes.',
-//     options: ['I only', 'I and II', 'II and III', 'III and IV'],
-//     answer: 'I and II'
-//   },
-//   {
-//     question: '12. In thermochemistry, the reference standard state for gases, liquid, and solid is said to be at',
-//     options: ['25°C/1 atm', '0°C /10 atm', '1°C/60 atm', '1273 K/10 atm'],
-//     answer: '25°C/1 atm'
-//   },
-//   {
-//     question: '13. The thermodynamic state function that is a measure of disorderliness is',
-//     options: ['Lavoisier', 'Dalton', 'Proust', 'Boyle'],
-//     answer: 'Lavoisier'
-//   },
-//   {
-//     question: '14. The salt resulting from the reaction of both a strong acid and base is likely to be a/an',
-//     options: ['Acid Salt', 'Basic Salt', 'Neutral', 'No reaction'],
-//     answer: 'Neutral'
-//   },
-//   {
-//     question: '15. Lowry Bronsted defines an acid as',
-//     options: ['A proton acceptor', 'An electron acceptor', 'A proton donor', 'An electron donor'],
-//     answer: 'A proton donor'
-//   },
-//   {
-//     question: '16. "Energy can neither be created nor destroyed but can be converted from one form to another" is inferred from',
-//     options: ['Zeroth law of thermodynamics', 'First law of thermodynamics', 'Second law of thermodynamics'],
-//     answer: 'First law of thermodynamics'
-//   },
-//   {
-//     question: '17. Which of the statements defines the activity of a substance?',
-//     options: ['Degree of randomness of a system', 'A measure of its effective concentration under specified conditions', 'A measure of the heat content of a substance'],
-//     answer: 'A measure of its effective concentration under specified conditions'
-//   },
-//   {
-//     question: '18. A system in which reactants and products are found in two or more phases is a',
-//     options: ['Phase equilibrium', 'Chemical equilibrium', 'Heterogeneous equilibrium'],
-//     answer: 'Heterogeneous equilibrium'
-//   },
-//   {
-//     question: '19. Which of the following statements is true for the effect of a catalyst on equilibrium?',
-//     options: ['Affects the rates of the reactions', 'Alters the equilibrium position', 'Catalyst remains in the reactants'],
-//     answer: 'Affects the rates of the reactions'
-//   },
-//   {
-//     question: '20. What happens when a catalyst is added to a system at equilibrium?',
-//     options: ['The reaction follows an alternative pathway of lower activation energy.', 'The heat of reaction decreases.', 'The potential energy of the reactants decreases.'],
-//     answer: 'The reaction follows an alternative pathway of lower activation energy.'
-//   }
-// ,
-//     // { 
-//     // question: ' The following factors affects the position of an equilibrium EXCEPT.    ',
-//     // options: ['Temperature ', ' Pressure', 'Catalyst'],
-//     // answer: 'Catalyst'
-//     // },
-//     // { 
-//     // question: ' Which one of the following statements regarding energy is false?   ',
-//     // options: [' The total energy in a chemical universe (a system and its surroundings) is constant ', 'Energy can be converted from one form to another ', 'The energy stored in chemical bonds is referred to as kinetic energy. '],
-//     // answer: 'The energy stored in chemical bonds is referred to as kinetic energy.'
-//     // },
-//     // { 
-//     // question: ' Which one of the following statements best describes the enthalpy change of a reaction?    ',
-//     // options: ['The energy released when chemical bonds are formed during a chemical reaction ', ' The energy consumed when chemical bonds are broken during a chemical reaction ', ' The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction '],
-//     // answer: 'The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction'
-//     // },
-//     // { 
-//     // question: '  Enthalpy is represented by which of the following symbols? ',
-//     // options: ['H', ' K', 'S ', 'B '],
-//     // answer: 'H'
-//     // },
-//     // { 
-//     // question: 'Which of the following statements regarding the Gibbs free energy change for a reaction is false?   ',
-//     // options: ['The Gibbs free energy change is the proportion of the enthalpy change of a reaction that is used to increase the entropy.', ': If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously. ', ' The Gibbs free energy is represented by the symbol G '],
-//     // answer: 'The Gibbs free energy change is the proportion of the enthalpy change of a reaction that is used to increase the entropy.'
-//     // },
-//     // { 
-//     // question: '  Energy is measured in which of the following units?   ',
-//     // options: [' Kelvin', 'Joule', 'Pascal ', 'Watt '],
-//     // answer: 'Joule'
-//     // },
-//     // { 
-//     // question: '    The formation of a chemical bond releases energy. True or false?     ',
-//     // options: ['True', ' False', 'All of the above ', ' None of the above'],
-//     // answer: 'True'
-//     // },
-//     // { 
-//     // question: 'In case of spontaneous reaction, the reaction process favoured is.  ',
-//     // options: ['Forward', ' Both direction', 'Reverse ', ' No direction'],
-//     // answer: 'Forward'
-//     // },
-//     // { 
-//     // question: ' Consider the following reaction in a galvanic cell  Zn+Cu2+ →Zn2+  Which if the following statements about the reaction is false? ',
-//     // options: ['The cell potential is positive ', ' The equilibrium constant is reater than one', 'Gibbs free energy is positive'],
-//     // answer: 'Gibb’s free energy is positive'
-//     // },
-//     // { 
-//     // question: ' What is the difference between S°, and ? S°, 298 for a chemical change? ',
-//     // options: ['S° standard enthalpy at 1 bar pressure ', ' ΔSo 298 Standard change in entropy at room temperature ', ' S° Entropy of a perfect crystal at absolute zero . '],
-//     // answer: 'ΔSo 298 Standard change in entropy at room temperature'
-//     // },
-//     // { 
-//     // question: ' ____ classifies acids and bases as specifies which accept and donates proton respectively. ',
-//     // options: [' Arrhenus Theory ', 'Bronsted-lowry Theory', 'Daltons Theory  ', ' Charles Darwin Theory  '],
-//     // answer: 'Bronsted-lowry Theory'
-//     // },
-//     // { 
-//     // question: ' The following are characteristics of gases except  ',
-//     // options: ['Definite shape', ' Indefinite shape', ' mobile ions ', ' loosely packed'],
-//     // answer: 'Definite shape'
-//     // },
-//     // { 
-//     // question: ' The measure of the hydrogen ion conc. (H+) is ____ ',
-//     // options: [' POH scale', ' H+ scale', 'PH scale', ' OH- scale'],
-//     // answer: 'PH scale'
-//     // },
-//     // { 
-//     // question: ' The rate law relates the rate of a chemical reaction to   ',
-//     // options: ['The concentration of a reaction', 'The temperature ', 'The activation energy ', ' The reaction mechanism'],
-//     // answer: 'The concentration of a reaction'
-//     // },
-//     // { 
-//     // question: ' As temperature decreases the reaction rate    ',
-//     // options: [' Decrease then increase', ' Decrease', 'Increases ', 'Stays the same '],
-//     // answer: 'increases'
-//     // },
-//     // { 
-//     // question: '  Which out of the following is not an intensive property   ',
-//     // options: [' Pressure ', ' Concentration', 'Density ', ' Volume'],
-//     // answer: 'Volume'
-//     // },
-//     // { 
-//     // question: ' The catalyzed reaction has a  ____ activation energy and thus causes  ____ reaction rate.   ',
-//     // options: ['Higher,Lower ', 'Higher, higher ', 'Lower,higher ', ' lower, steady'],
-//     // answer: 'Lower, higher'
-//     // },
-//     // { 
-//     // question: '  What is the phase change when solid changes to gas  ',
-//     // options: ['Melting ', 'Freezing ', 'Deposition ', 'Sublimation '],
-//     // answer: 'Sublimation'
-//     // },
-//     // { 
-//     // question: ' Mole solute per kg of solutuion is   ',
-//     // options: [' Molarity', ' Concentration', 'Molality ', 'ion '],
-//     // answer: 'Molality'
-//     // }
-//     ]   
